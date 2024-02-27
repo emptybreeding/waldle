@@ -1,0 +1,49 @@
+.keyboard-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 3px;
+    border-radius: 3px;
+}
+.keyboard-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+.keyboard-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #a1a1a1;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.key-enter {
+    width: 80px;
+}
+.key-delete {
+    width: 60px;
+}
+.key img {
+    max-width: 100%;
+    max-height: 100%;
+}
